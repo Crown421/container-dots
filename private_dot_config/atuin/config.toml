@@ -1,0 +1,7 @@
+sync_address = "https://atuin.banana-smoothie.uk"
+dialect = "uk"
+update_check = false
+inline_height = 15
+invert = false
+workspaces = true
+filter_mode = "workspace"
