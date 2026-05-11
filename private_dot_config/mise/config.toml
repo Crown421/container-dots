@@ -1,0 +1,6 @@
+[settings]
+exec_auto_install = false
+
+[tools]
+codex = "latest"
+rg = "latest"

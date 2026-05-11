@@ -1,0 +1,24 @@
+[".oh-my-zsh"]
+type = "archive"
+url = "https://github.com/ohmyzsh/ohmyzsh/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
+[".oh-my-zsh/custom/plugins/zsh-syntax-highlighting"]
+type = "archive"
+url = "https://github.com/zsh-users/zsh-syntax-highlighting/archive/master.tar.gz"
+exact = true
+stripComponents = 1
+refreshPeriod = "168h"
+[".oh-my-zsh/custom/themes/powerlevel10k"]
+type = "archive"
+url = "https://github.com/romkatv/powerlevel10k/archive/v1.20.0.tar.gz"
+exact = true
+stripComponents = 1
+
+[".oh-my-zsh/bin/"]
+type = "archive"
+url = "https://github.com/atuinsh/atuin/releases/download/v18.8.0/atuin-x86_64-unknown-linux-gnu.tar.gz"
+exact = true
+stripComponents = 1
+include = ["*/atuin"]
