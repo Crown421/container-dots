@@ -1,6 +1,7 @@
-[settings]
-exec_auto_install = false
-
 [tools]
 codex = "latest"
 rg = "latest"
+
+[env]
+CURRENT_WORKSPACE = "{{ cwd }}"
+_.source = "{{ env.HOME }}/.config/mise/scripts/codex-home.sh"

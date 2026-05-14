@@ -1,0 +1,13 @@
+model = "gpt-5.5"
+model_reasoning_effort = "medium"
+plan_mode_reasoning_effort = "high"
+
+[tui]
+status_line = ["model-with-reasoning", "current-dir", "context-usage"]
+
+[tui.model_availability_nux]
+"gpt-5.5" = 4
+
+[features]
+terminal_resize_reflow = true
+goals = true
